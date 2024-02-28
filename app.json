@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "NewWallpapers",
+    "slug": "NewWallpapers",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1116"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.alishandev.NewWallpapers"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c0022495-f2eb-48e6-a716-bfc0bf8806e7"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "c7947ac3-3541-4f3c-8ac6-26722b33d0b3"
+  }
+}
